@@ -2,7 +2,7 @@
 // sedn it request to update the state
 // it needs a deafualt state
 const defaultState = {
-  user: ["No User!"],
+  users: ["No User!"],
 };
 
 export default function homePageReducer(state = defaultState, action) {
